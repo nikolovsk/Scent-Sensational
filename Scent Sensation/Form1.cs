@@ -38,6 +38,9 @@ namespace Scent_Sensation
             male.ShowDialog();
         }
 
-
+        private void updateTotalAmount()
+        {
+            toolStripStatusLabel1.Text = $"Износот на вашата нарачка изнесува: {perfumesW[2].Price.ToString()}";
+        }
     }
 }

@@ -35,6 +35,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnWomanCategory = new System.Windows.Forms.Button();
             this.btnMaleCategory = new System.Windows.Forms.Button();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -110,11 +113,29 @@
             this.btnMaleCategory.UseVisualStyleBackColor = true;
             this.btnMaleCategory.Click += new System.EventHandler(this.btnMaleCategory_Click);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 520);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(892, 26);
+            this.statusStrip1.TabIndex = 7;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(285, 20);
+            this.toolStripStatusLabel1.Text = "Износот на вашата нарачка изнесува: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 517);
+            this.ClientSize = new System.Drawing.Size(892, 546);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnMaleCategory);
             this.Controls.Add(this.btnWomanCategory);
             this.Controls.Add(this.label5);
@@ -124,6 +145,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,6 +161,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnWomanCategory;
         private System.Windows.Forms.Button btnMaleCategory;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
     }
 }
 
