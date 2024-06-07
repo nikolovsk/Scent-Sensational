@@ -27,7 +27,7 @@ namespace Scent_Sensation
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append(Name + " " + Mililiters + "мл \n");
-            stringBuilder.Append("Availability:" + Availability + "\n");
+            stringBuilder.Append("Availability: " + Availability + "\n");
             stringBuilder.Append(Price + " ден. \n");
             stringBuilder.Append("\n");
 

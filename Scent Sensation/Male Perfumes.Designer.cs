@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tbPerfumesList = new System.Windows.Forms.TextBox();
+            this.lbPerfumesList = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -53,23 +53,26 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Погледнете ја листата со популарни машки парфеми!";
             // 
-            // tbPerfumesList
+            // lbPerfumesList
             // 
-            this.tbPerfumesList.Location = new System.Drawing.Point(281, 181);
-            this.tbPerfumesList.Name = "tbPerfumesList";
-            this.tbPerfumesList.Size = new System.Drawing.Size(317, 22);
-            this.tbPerfumesList.TabIndex = 2;
+            this.lbPerfumesList.AutoSize = true;
+            this.lbPerfumesList.Location = new System.Drawing.Point(312, 177);
+            this.lbPerfumesList.Name = "lbPerfumesList";
+            this.lbPerfumesList.Size = new System.Drawing.Size(10, 16);
+            this.lbPerfumesList.TabIndex = 2;
+            this.lbPerfumesList.Text = " ";
             // 
             // Male_Perfumes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(905, 551);
-            this.Controls.Add(this.tbPerfumesList);
+            this.Controls.Add(this.lbPerfumesList);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Male_Perfumes";
             this.Text = "Male_Perfumes";
+            this.Load += new System.EventHandler(this.Male_Perfumes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,6 +82,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbPerfumesList;
+        private System.Windows.Forms.Label lbPerfumesList;
     }
 }
