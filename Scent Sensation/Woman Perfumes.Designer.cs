@@ -31,13 +31,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbPerfumesList = new System.Windows.Forms.Label();
+            this.btnAddToCart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(273, 45);
+            this.label1.Location = new System.Drawing.Point(282, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(324, 42);
             this.label1.TabIndex = 1;
@@ -62,11 +63,22 @@
             this.lbPerfumesList.TabIndex = 3;
             this.lbPerfumesList.Text = " ";
             // 
+            // btnAddToCart
+            // 
+            this.btnAddToCart.Location = new System.Drawing.Point(659, 495);
+            this.btnAddToCart.Name = "btnAddToCart";
+            this.btnAddToCart.Size = new System.Drawing.Size(200, 23);
+            this.btnAddToCart.TabIndex = 4;
+            this.btnAddToCart.Text = "Додади во кошничка";
+            this.btnAddToCart.UseVisualStyleBackColor = true;
+            this.btnAddToCart.Click += new System.EventHandler(this.btnAddToCart_Click);
+            // 
             // Woman_Perfumes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(906, 553);
+            this.Controls.Add(this.btnAddToCart);
             this.Controls.Add(this.lbPerfumesList);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -83,5 +95,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbPerfumesList;
+        private System.Windows.Forms.Button btnAddToCart;
     }
 }

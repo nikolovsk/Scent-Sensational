@@ -10,3 +10,4 @@ C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sen
 C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.csproj.CoreCompileInputs.cache
 C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.exe
 C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.pdb
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent_Sensation.Add_to_cart.resources

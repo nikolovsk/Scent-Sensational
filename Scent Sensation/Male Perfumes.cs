@@ -15,6 +15,7 @@ namespace Scent_Sensation
         List<Perfume> perfumesM;
         Perfume p;
 
+
         public Male_Perfumes()
         {
             InitializeComponent();
@@ -50,5 +51,20 @@ namespace Scent_Sensation
                 lbPerfumesList.Text += p.ToString();
             }
         }
+
+        private void btnAddToCart_Click(object sender, EventArgs e)
+        {
+            Add_to_cart add_To_Cart = new Add_to_cart();
+            DialogResult result = add_To_Cart.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                
+            }
+        }
+
+        //private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        //{
+        //
+        //}
     }
 }
