@@ -1,0 +1,12 @@
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\bin\Debug\Scent Sensation.exe.config
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\bin\Debug\Scent Sensation.exe
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\bin\Debug\Scent Sensation.pdb
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.csproj.AssemblyReference.cache
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent_Sensation.Form1.resources
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent_Sensation.Male_Perfumes.resources
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent_Sensation.Properties.Resources.resources
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent_Sensation.Woman_Perfumes.resources
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.csproj.GenerateResource.cache
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.csproj.CoreCompileInputs.cache
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.exe
+C:\Users\Angela\source\repos\Scent Sensation\Scent Sensation\obj\Debug\Scent Sensation.pdb
